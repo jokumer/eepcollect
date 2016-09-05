@@ -1,0 +1,42 @@
+.. |img-1|      image:: /img-1.gif
+   :height: 468
+   :width: 669
+.. :align: left
+.. :border: 0
+.. :name: Grafik2
+
+.. |img-2|      image:: /img-2.gif
+   :height: 468
+   :width: 176
+.. :align: left
+.. :border: 0
+.. :name: Grafik3
+
+.. |img-3|      image:: /img-3.gif
+   :height: 468
+   :width: 176
+.. :align: left
+.. :border: 0
+.. :name: Grafik4
+
+.. |img-4|      image:: /img-4.gif
+   :height: 418
+   :width: 176
+.. :align: left
+.. :border: 0
+.. :name: Grafik1
+
+.. |img-5|      image:: /img-5.gif
+   :height: 485
+   :width: 381
+.. :align: left
+.. :border: 0
+.. :name: Grafik5
+
+.. |img-6|      image:: /img-6.gif
+   :height: 405
+   :width: 343
+.. :align: left
+.. :border: 0
+.. :name: Grafik6
+

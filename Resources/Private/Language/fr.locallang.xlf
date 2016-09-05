@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="fr" datatype="plaintext" original="messages" date="2015-05-26T12:00:00Z" product-name="eepcollect">
+		<header/>
+		<body>
+			<trans-unit id="enableyourcookie" xml:space="preserve" approved="yes">
+				<source>Aktivate your cookies!</source>
+				<target>Aktivate vos cookies!</target>
+			</trans-unit>
+			<trans-unit id="whatispagecollect" xml:space="preserve" approved="yes">
+				<source>What is 'Pagecollect'?</source>
+				<target>Aide?</target>
+			</trans-unit>
+			<trans-unit id="error_unknown" xml:space="preserve" approved="yes">
+				<source>Any unknown Error occured.</source>
+				<target>Toute erreur inconnue est survenue.</target>
+			</trans-unit>
+			<trans-unit id="error_nochanges" xml:space="preserve" approved="yes">
+				<source>Pagecollection wasn't updated!</source>
+				<target>Pagecollection pas encore actualisé!</target>
+			</trans-unit>
+			<trans-unit id="error_noviewmode" xml:space="preserve" approved="yes">
+				<source>No view-mode defined for this plugin!</source>
+				<target>Pas de mode défini ce plugin!</target>
+			</trans-unit>
+			<trans-unit id="error_oldsession" xml:space="preserve" approved="yes">
+				<source>Pagecollection wasn't updated!</source>
+				<target>Pagecollection pas encore actualisé!</target>
+			</trans-unit>
+			<trans-unit id="success_changes" xml:space="preserve" approved="yes">
+				<source>Pagecollection updated!</source>
+				<target>Pagecollection actualisé!</target>
+			</trans-unit>
+			<trans-unit id="collectioninfo" xml:space="preserve" approved="yes">
+				<source>%s page(s) collected</source>
+				<target>%s page(s) dans le carnet</target>
+			</trans-unit>
+			<trans-unit id="collectioninfo_empty" xml:space="preserve" approved="yes">
+				<source>No pages in collection.</source>
+				<target>Carnet vide.</target>
+			</trans-unit>
+			<trans-unit id="collectioninfo_nouser" xml:space="preserve" approved="yes">
+				<source>You must login to collect content from this page.</source>
+				<target>Vous devez vous connecter pour collecter le contenu de cette page.</target>
+			</trans-unit>
+			<trans-unit id="collectioninfo_pagesnotfound" xml:space="preserve" approved="yes">
+				<source>%s page(s) not found.</source>
+				<target>%s page(s) pas trouvé.</target>
+			</trans-unit>
+			<trans-unit id="addCurrentPageToCollection" xml:space="preserve" approved="yes">
+				<source>Add this page to collection</source>
+				<target>Ajouter au carnet</target>
+			</trans-unit>
+			<trans-unit id="delCurrentPageToCollection" xml:space="preserve" approved="yes">
+				<source>Delete this page from collection</source>
+				<target>Supprimer du carnet</target>
+			</trans-unit>
+			<trans-unit id="currentPageAddToCollection" xml:space="preserve" approved="yes">
+				<source>Page added to collection</source>
+				<target>Ajouter cette page au carnet</target>
+			</trans-unit>
+			<trans-unit id="currentPageInCollection" xml:space="preserve" approved="yes">
+				<source>Page added to collection</source>
+				<target>Ajouter cette page au carnet</target>
+			</trans-unit>
+			<trans-unit id="showFullPageCollection" xml:space="preserve" approved="yes">
+				<source>Show pagecollection</source>
+				<target>Afficher le carnet</target>
+			</trans-unit>
+			<trans-unit id="prozess_add" xml:space="preserve" approved="yes">
+				<source>Add page</source>
+				<target>Ajouter page</target>
+			</trans-unit>
+			<trans-unit id="prozess_delete" xml:space="preserve" approved="yes">
+				<source>Delete page</source>
+				<target>Supprimer cette page</target>
+			</trans-unit>
+			<trans-unit id="prozess_moveup" xml:space="preserve" approved="yes">
+				<source>Move page up</source>
+				<target>Vers le haut</target>
+			</trans-unit>
+			<trans-unit id="prozess_movedown" xml:space="preserve" approved="yes">
+				<source>Move page down</source>
+				<target>Vers le bas</target>
+			</trans-unit>
+			<trans-unit id="clearall" xml:space="preserve" approved="yes">
+				<source>Clear collection</source>
+				<target>Vider le carnet</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

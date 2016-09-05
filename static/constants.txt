@@ -1,0 +1,74 @@
+plugin.tx_eepcollect_pi1 {
+  ## BASICS
+    # cat=Pagecollector/file/110; type=file [html,htm,tmpl,tmp]; label=Template: Fileresource to the HTML-Template. You can also define a templatefile with higher priority inside the flexform of the contentelement for this plugin.
+    templateFile = EXT:eepcollect/template/eepcollect_pi1.tmpl
+  
+    # cat=Pagecollector/links/120; type=int; label=Storage page: Page where to save collections in.
+    pid_list = 
+    
+    # cat=Pagecollector/other/130; type=int; label=Cookie expires: Time in seconds how long the cookie with collection of pages should be alife for the client, after creating any collection.
+    cookieStorageLifeExpires = 2592000
+    
+    # cat=Pagecollector/links/140; type=int; label=List page: # Page where you will view a list of all collected pages. Uses template marker ###VIEWCOLLECTIONLINK### and builds a link to it
+    pidOfListPageCollect =
+    
+    # cat=Pagecollector/links/150; type=int; label=Info page: Page where you can view more information about how to use and so on. Creates a titled link (_LOCAL_LANG.default.whatispagecollect) in the template by ###WHATISPAGECOLLECT###
+    pidOfwhatIsPageCollect = 
+    
+    # cat=Pagecollector/general/160; type=int; label=Excluded pages: Commaseparated list of pages, where the selecttoolbarbuttons should not be available. Pages, which schouldn't be a part of pagecollection, but the collectionoverview should be viewed.
+    pidOfExcludedPages = 
+    
+    # cat=Pagecollector/general/170; type=options[Show list=view_list_mode,Show toolbar=view_prozess_mode]; label=View: Sets the view for plugin. Use: 'view_list_mode' - show list of collected pages, 'view_prozess_mode' - show toolbar
+    default_view_mode = view_list_mode
+    
+    # cat=Pagecollector/general/180; type=options[identify by cookie only=1,identify by feuser only=2,identify by both cookie or feuser=3]; label=Identify: Sets the kind of how to identify the user, using cookies or feuser login. Use: '1' - identify by cookie only, '2' - identify by feuser only, '3' - identify by both cookie or feuser
+    default_identify_mode = 1
+    
+    # cat=Pagecollector/general/190; type=int; label=Minimum for listlink: Count of minimum items in collection, to view link to the hole collection
+    minimumitems_toviewcollectionlink = 1
+    
+    # cat=Pagecollector/general/200; type=int; label=Minimum for clearlink: Count of minimum items in collection, to view a 'clearAll' link in list.
+    minimumitems_toviewclearalllink = 2
+    
+    # cat=Pagecollector/general/210; type=options[Pagetitle=1,Rootline=2]; label=Type of pagelink: Shows pagelink as title only or as full rootline. Use '1' - Pagetitle, '2' - Rootline
+    pagelinkType = 1
+    
+    # cat=Pagecollector/general/220; type=int; label=Rootline startlevel: If you view rootline for each collected page, you can change  startlevel
+    pagerootline_startatlevel = 0
+    
+    # cat=Pagecollector/general/230; type=int; label=Rootlinge length: If you view rootline for each collected page, you can change the string-length for the hole rootline
+    pagerootline_titlelength = 20
+    
+  ## IMAGES
+  images {
+    # cat=Pagecollector/general/310; type=string; label=Path: path for all images
+    path = typo3conf/ext/eepcollect/res/
+    
+    # cat=Pagecollector/general/320; type=string; label=Button add
+    prozessadd_img_small = button_plus.gif
+    
+    # cat=Pagecollector/general/330; type=string; label=Button delete
+    prozessdelete_img_small = button_minus.gif
+    
+    # cat=Pagecollector/general/340; type=string; label=Button moveup
+    prozessmoveup_img_small = button_up.gif
+    
+    # cat=Pagecollector/general/350; type=string; label=Button moveup disabled
+    prozessmoveupdisabled_img_small = button_up_disabled.gif
+    
+    # cat=Pagecollector/general/360; type=string; label=Button movedown
+    prozessmovedown_img_small = button_down.gif
+    
+    # cat=Pagecollector/general/370; type=string; label=Button movedown disabled
+    prozessmovedowndisabled_img_small = button_down_disabled.gif
+    
+    # cat=Pagecollector/general/380; type=string; label=Button add big
+    prozessadd_img_big = bigbutton_plus.gif
+    
+    # cat=Pagecollector/general/390; type=string; label=Button delete big
+    prozessdelete_img_big = bigbutton_minus.gif
+    
+    # cat=Pagecollector/general/400; type=string; label=Button okay big
+    prozessokay_img_big = bigbutton_okay.gif
+  }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-05-26T12:00:00Z" product-name="eepcollect">
+		<header/>
+		<body>
+			<trans-unit id="enableyourcookie" xml:space="preserve" approved="yes">
+				<source>Aktivate your cookies!</source>
+			</trans-unit>
+			<trans-unit id="whatispagecollect" xml:space="preserve" approved="yes">
+				<source>What is 'Pagecollect'?</source>
+			</trans-unit>
+			<trans-unit id="error_unknown" xml:space="preserve" approved="yes">
+				<source>Any unknown Error occured.</source>
+			</trans-unit>
+			<trans-unit id="error_nochanges" xml:space="preserve" approved="yes">
+				<source>Pagecollection wasn't updated!</source>
+			</trans-unit>
+			<trans-unit id="error_noviewmode" xml:space="preserve" approved="yes">
+				<source>No view-mode defined for this plugin!</source>
+			</trans-unit>
+			<trans-unit id="error_oldsession" xml:space="preserve" approved="yes">
+				<source>Pagecollection wasn't updated!</source>
+			</trans-unit>
+			<trans-unit id="success_changes" xml:space="preserve" approved="yes">
+				<source>Pagecollection updated!</source>
+			</trans-unit>
+			<trans-unit id="collectioninfo" xml:space="preserve" approved="yes">
+				<source>%s page(s) collected</source>
+			</trans-unit>
+			<trans-unit id="collectioninfo_empty" xml:space="preserve" approved="yes">
+				<source>No pages in collection.</source>
+			</trans-unit>
+			<trans-unit id="collectioninfo_nouser" xml:space="preserve" approved="yes">
+				<source>You must login to collect content from this page.</source>
+			</trans-unit>
+			<trans-unit id="collectioninfo_pagesnotfound" xml:space="preserve" approved="yes">
+				<source>%s page(s) not found.</source>
+			</trans-unit>
+			<trans-unit id="addCurrentPageToCollection" xml:space="preserve" approved="yes">
+				<source>Add this page to collection</source>
+			</trans-unit>
+			<trans-unit id="delCurrentPageToCollection" xml:space="preserve" approved="yes">
+				<source>Delete this page from collection</source>
+			</trans-unit>
+			<trans-unit id="currentPageAddToCollection" xml:space="preserve" approved="yes">
+				<source>Page added to collection</source>
+			</trans-unit>
+			<trans-unit id="currentPageInCollection" xml:space="preserve" approved="yes">
+				<source>Page added to collection</source>
+			</trans-unit>
+			<trans-unit id="showFullPageCollection" xml:space="preserve" approved="yes">
+				<source>Show pagecollection</source>
+			</trans-unit>
+			<trans-unit id="prozess_add" xml:space="preserve" approved="yes">
+				<source>Add page</source>
+			</trans-unit>
+			<trans-unit id="prozess_delete" xml:space="preserve" approved="yes">
+				<source>Delete page</source>
+			</trans-unit>
+			<trans-unit id="prozess_moveup" xml:space="preserve" approved="yes">
+				<source>Move page up</source>
+			</trans-unit>
+			<trans-unit id="prozess_movedown" xml:space="preserve" approved="yes">
+				<source>Move page down</source>
+			</trans-unit>
+			<trans-unit id="clearall" xml:space="preserve" approved="yes">
+				<source>Clear collection</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="dk" datatype="plaintext" original="messages" date="2015-05-26T12:00:00Z" product-name="eepcollect">
+		<header/>
+		<body>
+			<trans-unit id="tt_content.list_type_pi1" xml:space="preserve" approved="yes">
+				<source>Pagecollector</source>
+				<target>Sidesammling</target>
+			</trans-unit>
+			<trans-unit id="tx_eepcollect_sessions" xml:space="preserve" approved="yes">
+				<source>Collection</source>
+				<target>Kollektion</target>
+			</trans-unit>
+			<trans-unit id="tx_eepcollect_sessions.ses_id" xml:space="preserve" approved="yes">
+				<source>CookieID/Code</source>
+				<target>CookieID/Code</target>
+			</trans-unit>
+			<trans-unit id="tx_eepcollect_sessions.feuser_id" xml:space="preserve" approved="yes">
+				<source>FEUser</source>
+				<target>FEUser</target>
+			</trans-unit>
+			<trans-unit id="tx_eepcollect_sessions.feuser_id.0" xml:space="preserve" approved="yes">
+				<source>none</source>
+				<target>ingen</target>
+			</trans-unit>
+			<trans-unit id="tx_eepcollect_sessions.ses_tstamp" xml:space="preserve" approved="yes">
+				<source>Date/Time</source>
+				<target>Dato/tid</target>
+			</trans-unit>
+			<trans-unit id="tx_eepcollect_sessions.ses_data" xml:space="preserve" approved="yes">
+				<source>Data</source>
+				<target>Data</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

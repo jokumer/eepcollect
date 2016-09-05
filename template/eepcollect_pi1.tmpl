@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//Dtd html 4.0 Transitional//EN">
+<html>
+<head>
+	<title>eepcollector display example templates</title>
+</head>
+<body>
+
+<h1>PAGECOLLECTOR TEMPLATES</h1>
+<h2>EXAMPLE</h2>
+
+<pre>
+<strong>All markers</strong>
+These are substituted throughout the whole template.
+
+<em>Mainsections for choosen view mode:</em>
+COLLECTDISPLAY_TOOLBAR - contains all markers to list and handle (toolbarfeatures like 'add/delete/move') pages in collection
+COLLECTDISPLAY_RESULTLIST - contains all markers just to list the given collection without toolbarfeatures
+
+<em>Subsections:</em>
+	CURRENTPAGEPROZESSSECTION - section for viewing current available option for current viewed paged
+  		CURRENTPAGEPROZESSIMAGE - a button with the currentavailable option for the current viewed page
+  		CURRENTPAGEPROZESSTEXT - a textinfo, about the current available option for the current viewed page
+  		CURRENTPAGEPROZESSTITLE - thetitle of the current viewed page
+
+  	
+	COOKIEINFOSECTION - section will appear if cookie are enabled
+  		COOKIEINFO - shows a textinfo, that cookie couldnt be set/read
+
+  	
+	VIEWCOLLECTIONINFOSECTION - section to show info about the summary or emptyness of the collection
+  		COLLECTIONINFO - will show the summary of the collection in a short textinfo
+
+  	
+	VIEWCOLLECTIONTOOLBARLISTSECTION - section to show a list of pages in collection
+  		PROZESSDELETE - button to handle the collection (delete)
+  		PROZESSMOVEUP - button to handle the collection (moveup)
+  		PROZESSMOVEDOWN - button to handle the collection (movedown)
+  		PAGELINK - shows the pagetile/(or rootline) wrapped in a link
+  		PAGEURL - shows the URL of the page
+  		PAGETITLE - shows only the pagetitle (no link)
+  		PAGEROOTLINE - shows only the rootline in a path of pagetitles (no link)
+  		PAGECONTENT - a placeholder to wrap it with some content defined via TypoScript (plugin.tx_eepcollect_pi1.display.pagecontent_stdWrap)
+
+	VIEWCLEARALLLINKSECTION - section to show a second list of pages in collection
+		VIEWCLEARALLLINK - shows a link to delete the collection
+
+ 	
+	VIEWCOLLECTIONLISTSECTION - section to show a second list of pages in collection
+  		
+
+	VIEWCOLLECTIONLINKSECTION - section to show some further links for collectionhandling
+  		VIEWCOLLECTIONLINK - shows a link to the resultlistpage, as choosen in the plugin
+
+
+  	COLLECTIONSMARTLIST - can be used to build an HMENU with TSSetup: stdWrap.setCurrent =1
+  	WHATISPAGECOLLECT - link to any page which contains information about this tool
+
+</pre>
+
+<!-- ###################################################################### -->
+
+<br /><br /><br /><br /><hr />
+<br />
+<h3>Pagecollector Toolbar-Display Example</h3>
+<em>This is the template for the toolbar to select pages into the pagecollection.</em>
+<br />
+<br />
+<br />
+<br />
+
+
+
+<!-- ###COLLECTDISPLAY_TOOLBAR### begin -->
+	
+	<!-- ###CURRENTPAGEPROZESSSECTION### begin -->
+		<div style="padding: 5px;" >
+		<div style="width:180px;">
+			<div style="float: left; width:60px;">
+				###CURRENTPAGEPROZESSIMAGE###
+			</div>
+			<div style="float:left; width:120px;">
+				<em>###CURRENTPAGEPROZESSTEXT###</em>
+				<br />
+				<strong>'###CURRENTPAGEPROZESSTITLE###'</strong>
+			</div>
+		</div>
+		<div style="clear: both; width:170px; height: 3px;">&nbsp;</div>
+		</div>
+	<!-- ###CURRENTPAGEPROZESSSECTION### end -->
+	
+	<!-- ###COOKIEINFOSECTION### begin -->
+		<div style="background: #B2341F; padding: 5px; color: #FFFFFF" >
+			###COOKIEINFO###
+		</div>
+		<div style="clear: both; width:170px; height: 3px;">&nbsp;</div>
+	<!-- ###COOKIEINFOSECTION### end -->
+	
+	<!-- ###VIEWCOLLECTIONINFOSECTION### begin -->
+	<div style=" padding: 5px 0 ;" >
+	###COLLECTIONINFO###
+	</div>
+	<!-- ###VIEWCOLLECTIONINFOSECTION### end -->
+
+	
+	<!-- ###VIEWCOLLECTIONTOOLBARLISTSECTION### begin -->
+		<div style="background: #EAE0DF; padding: 5px; border-bottom: 1px solid #FFFFFF;" >
+			<div style="width:170px;">
+				<div style="float: left; width:60px;">
+					###PROZESSDELETE###
+					###PROZESSMOVEUP###
+					###PROZESSMOVEDOWN###
+				</div>
+				<div style="float:left; width:110px;">
+					###PAGELINK###
+				</div>
+				<div style="clear: both; width:180px; padding: 1px 0;"><!-- clear floats --></div>
+			</div>
+		</div>
+	<!-- ###VIEWCOLLECTIONTOOLBARLISTSECTION### end -->
+	
+	<!-- ###VIEWCLEARALLLINKSECTION### begin -->
+		<div style=" padding: 5px 0 ;" >
+			###VIEWCLEARALLLINK###
+		</div>
+	<!-- ###VIEWCLEARALLLINKSECTION### end -->
+	
+	<!-- ###VIEWCOLLECTIONLINKSECTION### begin -->
+		<div style=" padding: 5px 0 ;" >
+			###VIEWCOLLECTIONLINK###
+		</div>
+	<!-- ###VIEWCOLLECTIONLINKSECTION### end -->
+	
+	<div style=" padding: 5px 0 ;" >
+	###WHATISPAGECOLLECT###
+	</div>
+	
+<!-- ###COLLECTDISPLAY_TOOLBAR### end -->
+
+<!-- ###################################################################### -->
+
+<br /><br /><br /><br /><hr />
+<br />
+<h3>Pagecollector Result-List-Display Example</h3>
+<em>This is the template for the resultlist of all collected pages.</em>
+<br />
+<br />
+<br />
+<br />
+
+
+
+<!-- ###COLLECTDISPLAY_RESULTLIST### begin -->
+	
+	<!-- ###COOKIEINFOSECTION### begin -->
+		<div style="background: #B2341F; padding: 5px; color: #FFFFFF" >
+			###COOKIEINFO###
+		</div>
+		<div style="clear: both; height: 3px;">&nbsp;</div>
+	<!-- ###COOKIEINFOSECTION### end -->
+	
+	<!-- ###VIEWCOLLECTIONINFOSECTION### begin -->
+		<div style=" padding: 5px 0;" >
+			###COLLECTIONINFO###
+		</div>
+	<!-- ###VIEWCOLLECTIONINFOSECTION### end -->
+
+	<!-- can be used to build an HMENU by stdWrap.setCurrent =1 end 
+	<div style=" padding: 5px 0 ;" >
+		###COLLECTIONSMARTLIST###
+	</div>
+	-->
+	
+	<!-- ###VIEWCOLLECTIONTOOLBARLISTSECTION### begin -->
+		
+		<div style="padding: 5px 0;">
+				<!--
+				<span>
+					###PROZESSDELETE###
+					###PROZESSMOVEUP###
+					###PROZESSMOVEDOWN###
+				</span>
+				-->
+				<span>
+					###PAGELINK###
+				</span>
+		</div>
+	<!-- ###VIEWCOLLECTIONTOOLBARLISTSECTION### end -->
+	
+	<div style="padding: 5px 0; page-break-after: always;"><!-- pagebreak --></div>
+	
+	<!-- ###VIEWCOLLECTIONLISTSECTION### begin -->
+		<!--
+		<div style="padding: 5px;">
+				<span>
+					###PROZESSDELETE###
+					###PROZESSMOVEUP###
+					###PROZESSMOVEDOWN###
+				</span>
+		</div>
+		-->
+		<div style="padding: 5px; page-break-after: always;">
+			<div style="margin:0 -10px;">
+				<h1 style="padding:0 10px; font-size:180%;">
+					###PAGETITLE###
+				</h1>
+				###PAGECONTENT###
+			</div>
+		</div>
+	<!-- ###VIEWCOLLECTIONLISTSECTION### end -->
+	
+<!-- ###COLLECTDISPLAY_RESULTLIST### end -->
+
+<!-- ###################################################################### -->
+
+</body>
+</html>

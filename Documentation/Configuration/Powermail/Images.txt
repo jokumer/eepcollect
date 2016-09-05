@@ -1,0 +1,6 @@
+﻿.. |img-6|      image:: ../../Images/img-6.gif
+   :height: 405
+   :width: 343
+.. :align: left
+.. :border: 0
+.. :name: Grafik6

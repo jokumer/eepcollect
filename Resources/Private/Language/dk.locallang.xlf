@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="dk" datatype="plaintext" original="messages" date="2015-05-26T12:00:00Z" product-name="eepcollect">
+		<header/>
+		<body>
+			<trans-unit id="enableyourcookie" xml:space="preserve" approved="yes">
+				<source>Aktivate your cookies!</source>
+				<target>Aktiver dine Cookies!</target>
+			</trans-unit>
+			<trans-unit id="whatispagecollect" xml:space="preserve" approved="yes">
+				<source>What is 'Pagecollect'?</source>
+				<target>Hvad er 'Dan opgaveset'?</target>
+			</trans-unit>
+			<trans-unit id="error_unknown" xml:space="preserve" approved="yes">
+				<source>Any unknown Error occured.</source>
+				<target>Et ukendt fejl er opstået.</target>
+			</trans-unit>
+			<trans-unit id="error_nochanges" xml:space="preserve" approved="yes">
+				<source>Pagecollection wasn't updated!</source>
+				<target>Opgaveset ikke opdatered!</target>
+			</trans-unit>
+			<trans-unit id="error_noviewmode" xml:space="preserve" approved="yes">
+				<source>No view-mode defined for this plugin!</source>
+				<target>Ingen 'Visningsmodus' for denne plugin vælgt!</target>
+			</trans-unit>
+			<trans-unit id="error_oldsession" xml:space="preserve" approved="yes">
+				<source>Pagecollection wasn't updated!</source>
+				<target>Opgaveset ikke opdatered!</target>
+			</trans-unit>
+			<trans-unit id="success_changes" xml:space="preserve" approved="yes">
+				<source>Pagecollection updated!</source>
+				<target>Opgaveset er opdatered!</target>
+			</trans-unit>
+			<trans-unit id="collectioninfo" xml:space="preserve" approved="yes">
+				<source>%s page(s) collected</source>
+				<target>%s side(r) i sammlingen.</target>
+			</trans-unit>
+			<trans-unit id="collectioninfo_empty" xml:space="preserve" approved="yes">
+				<source>No pages in collection.</source>
+				<target>Ingen sider i opgaveset</target>
+			</trans-unit>
+			<trans-unit id="collectioninfo_nouser" xml:space="preserve" approved="yes">
+				<source>You must login to collect content from this page.</source>
+				<target>Du skal være logge på, for at sammle indhold på denne side.</target>
+			</trans-unit>
+			<trans-unit id="collectioninfo_pagesnotfound" xml:space="preserve" approved="yes">
+				<source>%s page(s) not found.</source>
+				<target>%s side(r) blev ikke funde.</target>
+			</trans-unit>
+			<trans-unit id="addCurrentPageToCollection" xml:space="preserve" approved="yes">
+				<source>Add this page to collection</source>
+				<target>Tilføj denne side til min sammling</target>
+			</trans-unit>
+			<trans-unit id="delCurrentPageToCollection" xml:space="preserve" approved="yes">
+				<source>Delete this page from collection</source>
+				<target>Slet denne side fra min sammling</target>
+			</trans-unit>
+			<trans-unit id="currentPageAddToCollection" xml:space="preserve" approved="yes">
+				<source>Page added to collection</source>
+				<target>Siden er tilføjed til min sammling</target>
+			</trans-unit>
+			<trans-unit id="currentPageInCollection" xml:space="preserve" approved="yes">
+				<source>Page added to collection</source>
+				<target>siden er gemt i min sammling</target>
+			</trans-unit>
+			<trans-unit id="showFullPageCollection" xml:space="preserve" approved="yes">
+				<source>Show pagecollection</source>
+				<target>Vis min sammling</target>
+			</trans-unit>
+			<trans-unit id="prozess_add" xml:space="preserve" approved="yes">
+				<source>Add page</source>
+				<target>Tilføj side</target>
+			</trans-unit>
+			<trans-unit id="prozess_delete" xml:space="preserve" approved="yes">
+				<source>Delete page</source>
+				<target>Slet side</target>
+			</trans-unit>
+			<trans-unit id="prozess_moveup" xml:space="preserve" approved="yes">
+				<source>Move page up</source>
+				<target>Sorter side op</target>
+			</trans-unit>
+			<trans-unit id="prozess_movedown" xml:space="preserve" approved="yes">
+				<source>Move page down</source>
+				<target>Sorter side ned</target>
+			</trans-unit>
+			<trans-unit id="clearall" xml:space="preserve" approved="yes">
+				<source>Clear collection</source>
+				<target>Slet alle</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

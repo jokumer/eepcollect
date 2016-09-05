@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-05-26T12:00:00Z" product-name="eepcollect">
+		<header/>
+		<body>
+			<trans-unit id="eepcollect" xml:space="preserve">
+				<source>Pagecollection</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.sheet_general" xml:space="preserve">
+				<source>General Settings</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.view_mode" xml:space="preserve">
+				<source>View mode:</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.choose" xml:space="preserve">
+				<source>--Choose!--</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.view_mode_prozess" xml:space="preserve">
+				<source>Toolbar</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.view_mode_list" xml:space="preserve">
+				<source>Resultlist</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.identify_mode" xml:space="preserve">
+				<source>User identication:</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.identify_mode.1" xml:space="preserve">
+				<source>Only by cookie (default)</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.identify_mode.2" xml:space="preserve">
+				<source>Only by FE-User</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.identify_mode.3" xml:space="preserve">
+				<source>By FE-User or Cookie</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.template_file" xml:space="preserve">
+				<source>Template file:</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.pidOfListPageCollect" xml:space="preserve">
+				<source>PageId for list Display:</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.pidOfwhatIsPageCollect" xml:space="preserve">
+				<source>PageId for tool-infos:</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.pagelinkType" xml:space="preserve">
+				<source>Type of pagelink</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.pagelinkType.title" xml:space="preserve">
+				<source>Pagetitle</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.pagelinkType.rootline" xml:space="preserve">
+				<source>Rootline</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.storagepage" xml:space="preserve">
+				<source>Startingpoint:</source>
+			</trans-unit>
+			<trans-unit id="eepcollect.pi_flexform.pidOfExcludedPages" xml:space="preserve">
+				<source>Exlude pages from collection:</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
