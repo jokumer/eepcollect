@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = array (
   'title' => 'Pagecollector',
   'description' => 'Visitors can collect pages and add them to their own favorit-list like a basket in a shop. Inclusiv delete and sort functions. (Merkliste, Merkzettel, Seite merken, Inhalte sammeln -> http://pagecollector.enobe.de)',
   'category' => 'fe',
-  'version' => '1.0.18',
+  'version' => '1.0.19',
   'state' => 'stable',
   'uploadfolder' => true,
   'createDirs' => 'uploads/tx_eepcollect',
@@ -26,8 +26,7 @@ $EM_CONF[$_EXTKEY] = array (
   array (
     'depends' => 
     array (
-      'typo3' => '6.2.0-7.99.99',
-      'php' => '5.3.0-5.5.99',
+      'typo3' => '7.6.0-8.7.99',
     ),
     'conflicts' => 
     array (
