@@ -1,0 +1,33 @@
+{
+  "name": "jokumer/eepcollect",
+  "type": "typo3-cms-extension",
+  "description": "Visitors can collect pages and add them to their own favorit-list like a basket in a shop. Inclusiv delete and sort functions.",
+  "keywords": [
+    "TYPO3",
+    "eepcollect",
+    "bookmark",
+    "collect"
+  ],
+  "homepage": "https://github.com/jokumer/eepcollect",
+  "authors": [
+    {
+      "name": "Joerg Kummer",
+      "email": "typo3 et enobe dot de",
+      "role": "Developer",
+      "homepage": "http://pagecollector.enobe.de"
+    }
+  ],
+  "license": "GPL-2.0+",
+  "require": {
+    "typo3/cms-core": ">=7.6.0,<8.8.0"
+  },
+  "autoload": {
+    "classmap": [
+      "pi1/"
+    ]
+  },
+  "replace": {
+    "eepcollect": "self.version",
+    "typo3-ter/eepcollect": "self.version"
+  }
+}

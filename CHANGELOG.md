@@ -1,3 +1,8 @@
+17-07-14 Joerg Kummer  <typo3 et enobe dot de>
+
+	v1.0.19
+	* TYPO3 v.8.7 compatibility
+
 16-09-05 Joerg Kummer  <typo3 et enobe dot de>
 
 	v1.0.18
