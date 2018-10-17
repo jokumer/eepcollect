@@ -70,25 +70,25 @@ plugin.tx_eepcollect_pi1 {
   }
   
   ## LOCALLANG
-  _LOCAL_LANG.xx {
+  _LOCAL_LANG.da {
   /*
     enableyourcookie = Aktiver dine Cookies!
     whatispagecollect = Hvad er 'Dan opgaveset'?
-    error_unknown = et ukendt fejl er opstået
+    error_unknown = et ukendt fejl er opst√•et
     error_nochanges = Opgaveset ikke opdatered!
     error_oldsession = Opgaveset ikke opdatered!
-    error_noviewmode = Ingen 'Visningsmodus' for denne plugin vælgt!
+    error_noviewmode = Ingen 'Visningsmodus' for denne plugin v√¶lgt!
     success_changes = Opgaveset er opdatered!
     collectioninfo = %s side(r) sammlet i opgaveset
     collectioninfo_empty = Ingen sider i opgaveset.
-    collectioninfo_nouser = Du skal være logged in.
+    collectioninfo_nouser = Du skal v√¶re logged in.
     collectioninfo_pagesnotfound = %s side(r) ikke fundet
-    addCurrentPageToCollection = tilføj denne side:
+    addCurrentPageToCollection = tilf√∏j denne side:
     delCurrentPageToCollection = slet denne side:
-    currentPageAddToCollection = tilføjed:
+    currentPageAddToCollection = tilf√∏jed:
     currentPageInCollection = siden er gemt:
     showFullPageCollection = Vis side-sammling
-    prozess_add = Tilføj side
+    prozess_add = Tilf√∏j side
     prozess_delete = Slet side
     prozess_moveup = Sorter side op
     prozess_movedown = Sorter side ned
