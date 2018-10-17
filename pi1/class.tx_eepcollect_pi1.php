@@ -64,7 +64,7 @@ class tx_eepcollect_pi1 extends \TYPO3\CMS\Frontend\Plugin\AbstractPlugin
     {
         $this->conf = $conf;
         $this->pi_setPiVarDefaults();
-        $this->pi_loadLL();
+        $this->pi_loadLL('EXT:' . $this->extKey . '/Resources/Private/Language/locallang.xlf');
             // Init variables and get member data (formatted for HTML-output). If there was an error, display and exit.
         $this->init();
             // if no user given, but collections depends on users (identify_mode = 2)
