@@ -1,3 +1,13 @@
+17-10-18 Joerg Kummer  <typo3 et enobe dot de>
+
+	v1.0.21
+	* Locallang fix
+
+22-07-17 Joerg Kummer  <typo3 et enobe dot de>
+
+	v1.0.20
+	* Composer validation
+
 17-07-14 Joerg Kummer  <typo3 et enobe dot de>
 
 	v1.0.19
