@@ -23,6 +23,7 @@ return array (
             'label' => 'LLL:EXT:eepcollect/Resources/Private/Language/locallang_db.xlf:tx_eepcollect_sessions.feuser_id',
             'config' => Array (
                 'type' => 'select',
+                'renderType' => 'selectSingle',
                 'items' => Array (
                     Array('LLL:EXT:eepcollect/Resources/Private/Language/locallang_db.xlf:tx_eepcollect_sessions.feuser_id.0', '0'),
                 ),
@@ -37,11 +38,10 @@ return array (
             'exclude' => 1,
             'label' => 'LLL:EXT:eepcollect/Resources/Private/Language/locallang_db.xlf:tx_eepcollect_sessions.ses_tstamp',
             'config' => Array (
-                'type' => 'none',
-                'size' => '12',
-                'max' => '20',
-                'eval' => 'datetime',
-                'default' => time(),
+                'type' => 'input',
+                'renderType' => 'inputDateTime',
+                'eval' => 'datetime,int',
+                'default' => 0
             )
         ),
         'ses_data' => Array (
@@ -54,7 +54,7 @@ return array (
         ),
     ),
     'types' => array (
-        '0' => array('showitem' => 'ses_id;;;;1-1-1, feuser_id, ses_tstamp, ses_data')
+        '0' => array('showitem' => 'ses_id, feuser_id, ses_tstamp, ses_data')
     ),
     'palettes' => array (
         '1' => array('showitem' => '')

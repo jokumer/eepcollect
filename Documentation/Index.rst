@@ -20,13 +20,14 @@ EXT: PageCollector
 
 Extension Key: eepcollect
 
-Copyright 2008-2016, Jörg Kummer, typo3 et enobe dot de
+Copyright 2008-2019, Jörg Kummer
 
-More http://pagecollector.enobe.de
+This extension is based on multiple obsolete solutions, and will no longer improved or extended with further features.
+I will try to maintain, as long as there are requirements - just ask, or send a pull request.
 
 Git https://github.com/prathers/eepcollect
 
-Forge http://forge.typo3.org/projects/show/extension-eepcollect
+Earlier in Forge http://forge.typo3.org/projects/show/extension-eepcollect
 
 This document is published under the Open Content License available from http://www.opencontent.org/opl.shtml
 The content of this document is related to TYPO3 - a GNU/GPL CMS/Framework available from www.typo3.com

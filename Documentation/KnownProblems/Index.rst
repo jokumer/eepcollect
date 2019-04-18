@@ -31,3 +31,5 @@ Known problems
 
 - Please report bugs and features in forge: http://forge.typo3.org/projects/show/extension-eepcollect
 
+- No content element render definition for tt_content.list.20.eepcollect_pi1
+	- tt_content.list.20.eepcollect_pi1 < plugin.tx_eepcollect_pi1

@@ -19,7 +19,7 @@ Resultlistview
 ^^^^^^^^^^^^^^
 
 If you choose viewmode 'resultview' for the plugin, it will show a list of the pages from the collection.
-The plugintemplate substitutes a 'uid' out to the marker ###PAGECONTENT####.
+The plugintemplate substitutes a 'uid' out to the marker ###PAGECONTENT### if any given.
 This uid is used to generate the content from these pages by the following TypoScript Setup code: ::
 
 	# resultlistview with appended pagecontent from col=0 (normal)
@@ -33,3 +33,7 @@ This uid is used to generate the content from these pages by the following TypoS
 		}
 	}
 
+Important
+^^^^^^^^^
+
+To show pagecontent of a list of pages, can end up in memory consumption and risk of running out of memory.

@@ -36,7 +36,7 @@ General settings
          File resource to the HTML-Template. You can also define a template file with higher priority inside the flexform of the contentelement for this plugin.
 
    Default
-         EXT:eepcollect/template/eepcollect_pi1.tmpl
+         EXT:eepcollect/Resources/Private/Templates/eepcollect_pi1.tmpl
 
 
 .. container:: table-row

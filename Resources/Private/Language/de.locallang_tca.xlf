@@ -63,10 +63,6 @@
 				<source>Pagetitle</source>
 				<target>Seitentitel</target>
 			</trans-unit>
-			<trans-unit id="eepcollect.pi_flexform.pagelinkType.rootline" xml:space="preserve" approved="yes">
-				<source>Rootline</source>
-				<target>Rootline/Pfad</target>
-			</trans-unit>
 			<trans-unit id="eepcollect.pi_flexform.storagepage" xml:space="preserve" approved="yes">
 				<source>Startingpoint:</source>
 				<target>Ausgangspunkt:</target>
