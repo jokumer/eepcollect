@@ -1,5 +1,10 @@
 17-04-19 JKummer
 
+	v2.0.1
+	* Bugfix - remove obsolete classmap from composer.json, thx to Ben Walch #3
+
+17-04-19 JKummer
+
 	v2.0.0
 	* Compatibility for TYPO3 9.5
 	* Force no cache (USER_INT)

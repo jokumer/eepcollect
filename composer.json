@@ -21,10 +21,7 @@
   "autoload": {
     "psr-4": {
       "Jokumer\\Eepcollect\\": "Classes/"
-    },
-    "classmap": [
-      "pi1/"
-    ]
+    }
   },
   "replace": {
     "eepcollect": "self.version",
